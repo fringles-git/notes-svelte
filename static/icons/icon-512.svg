@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Quick Notes icon">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#D9A35A" />
+      <stop offset="100%" stop-color="#EFDAB2" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="120" fill="#F7F3EE"/>
+  <rect x="128" y="84" width="256" height="344" rx="44" fill="#FFF9F5" stroke="#1A1A1A" stroke-width="12"/>
+  <path d="M172 194h164M172 258h164M172 322h120" stroke="#1A1A1A" stroke-width="16" stroke-linecap="round"/>
+  <path d="M286 84v62h62" fill="none" stroke="#1A1A1A" stroke-width="12" stroke-linejoin="round"/>
+  <circle cx="366" cy="370" r="70" fill="url(#g1)"/>
+  <path d="M366 332v76M330 370h72" stroke="#1A1A1A" stroke-width="20" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,129 @@
+@import '@fontsource/manrope/400.css';
+@import '@fontsource/manrope/500.css';
+@import '@fontsource/manrope/700.css';
+@import '@fontsource/manrope/800.css';
+
+:root {
+  --bg: #F7F3EE;
+  --surface: #F1EAE1;
+  --surface-strong: #FFF9F5;
+  --card: #F7F3EE;
+  --ink: #1A1A1A;
+  --muted: #5A5A56;
+  --accent: #D9A35A;
+  --highlight: #EFDAB2;
+  --border: rgba(26, 26, 26, 0.12);
+  --shadow-soft: 0 10px 24px rgba(26, 26, 26, 0.08);
+  --shadow-strong: 0 18px 34px rgba(26, 26, 26, 0.12);
+  --text-h1: 28px;
+  --line-h1: 34px;
+  --text-h2: 22px;
+  --line-h2: 28px;
+  --text-body: 16px;
+  --line-body: 24px;
+  --text-caption: 12px;
+  --line-caption: 16px;
+  --radius-card: 22px;
+  --radius-container: 34px;
+  --radius-pill: 999px;
+  --font-family: 'Manrope', sans-serif;
+  --duration-fast: 160ms;
+  --duration-base: 240ms;
+  --duration-slow: 340ms;
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  color-scheme: light;
+}
+
+:root[data-theme='dark'] {
+  --bg: #141413;
+  --surface: #1D1C1A;
+  --surface-strong: #171714;
+  --card: #1D1C1A;
+  --ink: #F3F0EA;
+  --muted: #C9C1B8;
+  --accent: #E3B36C;
+  --highlight: #3A2D1B;
+  --border: rgba(243, 240, 234, 0.14);
+  --shadow-soft: 0 12px 28px rgba(0, 0, 0, 0.26);
+  --shadow-strong: 0 18px 38px rgba(0, 0, 0, 0.3);
+  color-scheme: dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --bg: #141413;
+    --surface: #1D1C1A;
+    --surface-strong: #171714;
+    --card: #1D1C1A;
+    --ink: #F3F0EA;
+    --muted: #C9C1B8;
+    --accent: #E3B36C;
+    --highlight: #3A2D1B;
+    --border: rgba(243, 240, 234, 0.14);
+    --shadow-soft: 0 12px 28px rgba(0, 0, 0, 0.26);
+    --shadow-strong: 0 18px 38px rgba(0, 0, 0, 0.3);
+    color-scheme: dark;
+  }
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-family);
+}
+
+body {
+  min-height: 100vh;
+  background: radial-gradient(circle at top, rgba(239, 218, 178, 0.18), transparent 30%), var(--bg);
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+button {
+  border: none;
+  background: transparent;
+  color: inherit;
+}
+
+input,
+textarea {
+  background: transparent;
+  color: var(--ink);
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+p,
+h1,
+h2,
+h3,
+ul,
+ol {
+  margin: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

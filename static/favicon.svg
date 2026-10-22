@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Quick Notes favicon">
+  <rect width="64" height="64" rx="18" fill="#F7F3EE"/>
+  <rect x="14" y="10" width="36" height="44" rx="7" fill="#FFF9F5" stroke="#1A1A1A" stroke-width="2.5"/>
+  <path d="M19 22h26M19 30h26M19 38h18" stroke="#1A1A1A" stroke-width="3" stroke-linecap="round"/>
+  <path d="M34 10v9h9" fill="none" stroke="#1A1A1A" stroke-width="2.5" stroke-linejoin="round"/>
+</svg>

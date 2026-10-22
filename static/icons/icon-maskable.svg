@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Quick Notes maskable icon">
+  <rect width="512" height="512" rx="120" fill="#D9A35A"/>
+  <rect x="122" y="88" width="272" height="336" rx="42" fill="#F7F3EE"/>
+  <path d="M178 204h158M178 270h158M178 336h116" stroke="#1A1A1A" stroke-width="18" stroke-linecap="round"/>
+  <path d="M300 88v62h62" fill="none" stroke="#1A1A1A" stroke-width="12" stroke-linejoin="round"/>
+  <rect x="140" y="148" width="232" height="110" rx="18" fill="#EFDAB2" opacity="0.4"/>
+</svg>
